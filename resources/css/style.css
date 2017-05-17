@@ -1,0 +1,359 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+div {
+  display: block;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Tahoma", sans-serif;
+  color: #404040;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Tahoma", sans-serif;
+  color: #404040;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Tahoma", sans-serif;
+  color: #404040;
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-family: "Tahoma", sans-serif;
+  color: #404040;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-family: "Arial", sans-serif;
+  color: #404040;
+  font-weight: 400;
+  font-size: 1.15rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+gray-bkrd {
+  background-color: #e6e6e6;
+}
+
+/* Header and Navigation */
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  z-index: 8;
+  padding-left: 1.5rem;
+  height: 4rem;
+  position: fixed;
+  background-color: white;
+}
+
+.logo-with-text {
+  display: flex;
+  align: center;
+}
+
+.logo img {
+  height: 3rem;
+  width: auto;
+}
+
+header h6 span {
+  font-family: "Georgia", sans-serif;
+  font-weight: bold;
+  color: #4d4d4d;
+  font-size: 1rem;
+}
+
+header h6 {
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+  color: #999999;
+  font-size: 1rem;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav span {
+  padding-right: 1rem;
+}
+
+nav span a {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #4d4d4d;
+}
+
+/* Main Content Section */
+.main-content {
+  padding: 6rem 0 2rem 0;
+  background-color: #d9d9d9;
+  display: flex;
+}
+
+.main-left-side {
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+  max-width: 65%;
+}
+
+.main-right-side {
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  line-height: 1.25;
+  max-width: 45%;
+}
+
+.tagline-container {
+  max-width: 80%;
+}
+
+.tagline-container h3 {
+  margin: 2rem 0;
+}
+
+#button {
+  background-color: #4d4d4d;
+  padding: .5rem 1.25rem .5rem 1.25rem;
+  text-align: center;
+}
+
+a #button {
+  font-size: 1.5rem;
+  color: white;
+}
+
+/* Middle Content Section */
+.middle-content {
+  width: 100%;
+  display: flex;
+  align-items: flex;
+}
+
+.content-left-side {
+  padding: 2rem 1.5rem;
+  max-width: 60%;
+  border-right: 1px solid #e6e6e6;
+}
+
+.content-text-container {
+  width: 100%;
+}
+
+.content-text-container h2 {
+  margin: 2rem 0 1.5rem 0;
+}
+
+.content-text-container p {
+  margin-bottom: 2rem;
+}
+
+.content-right-side {
+  padding-left: 1rem;
+}
+
+.sidebar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.content-right-side .sidebar {
+  border: 1px solid #e6e6e6;
+}
+
+.sidebar img {
+  width: 35%;
+  margin: 1rem;
+}
+
+.sidebar-text {
+  line-height: 1.75;
+}
+
+
+.sidebar-text h6 {
+  margin: .5rem 0;
+}
+
+.sidebar-text a {
+  color: #66b0ff;
+}
+
+.sidebar lecture {
+    background-color: #e6e6e6;
+}
+
+.sidebar-text lecture {
+  background-color: #e6e6e6;
+}
+
+.sidebar orientation-text {
+  padding-top: 1rem;
+}
+
+/* Start Learning Section */
+.learning-section {
+  background-color: #e6e6e6;
+}
+
+.title {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.courses-container {
+  margin: 2rem 4rem 0 4rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course {
+  width: 31%;
+  margin: 0rem 1rem;
+  background-color: white;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.top-row {
+  margin-bottom: 1rem;
+}
+
+.bottom-row {
+  margin-bottom: 2rem;
+}
+
+.content-box {
+  margin: 1rem 1rem 1.5rem 1rem;
+}
+
+.content-box p {
+  margin-top: .5rem;
+  color: #666666;
+  width: 85%;
+}
+
+.content-box h4 {
+  line-height: 2;
+}
+
+
+
+/* Thesis exhibit Section */
+.thesis-content {
+  margin: 2rem 0;
+  display: flex;
+}
+
+.thesis-content-left-side {
+  max-width: 60%;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+}
+
+.thesis-content-text h4 {
+  margin-top: 1.5rem;
+}
+
+.thesis-content p {
+  margin-top: 1rem;
+  color: #999999;
+  font-size: 1rem;
+  font-family: "Georgia", sans-serif;
+  font-weight: 400;
+}
+
+.thesis-content-right-side {
+  line-height: 1.5;
+}
+
+/* Footer Section */
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0rem 0 4rem 0;
+  border-top: 1px solid #e6e6e6;
+  color: #999999;
+}
+
+footer div {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.legal span {
+  padding-right: 1rem;
+}
+
+footer a {
+  color: #999999;
+}
+
+/* Screen size styling */
+/* Desktop styling */
+@media only screen and (min-width: 1116px){
+  .mobile.header {
+    display: none;
+  }
+
+  .tablet.header {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1115px){
+  .desktop header {
+    display: none;
+  }
+
+  .mobile header {
+    display: none;
+  }
+
+  /* Header styling */
+  .tablet header {
+    width: 97.5%;
+  }
+
+  .header.tablet.menu {
+    display: flex;
+    align-items: center;
+  }
+
+}
